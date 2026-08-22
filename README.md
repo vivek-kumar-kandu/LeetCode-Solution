@@ -51,12 +51,12 @@
 | # | Problem Title | Difficulty | Solution | Language | Topics |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0001-two-sum.c](./0001-two-sum/0001-two-sum.c) | `C` | `Array`, `Hash Table` |
-| 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0015-3sum.cpp](./0015-3sum/0015-3sum.cpp) | `C++` | `Array`, `Two Pointers & Sorting` |
-| 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array](./0034-find-first-and-last-position-of-element-in-sorted-array) | `C++` | `Algorithms` |
-| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0349-intersection-of-two-arrays.cpp](./0349-intersection-of-two-arrays/0349-intersection-of-two-arrays.cpp) | `C++` | `Array`, `Binary Search`, `Hash Table`, `Two Pointers & Sorting` |
-| 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0442-find-all-duplicates-in-an-array.cpp](./0442-find-all-duplicates-in-an-array/0442-find-all-duplicates-in-an-array.cpp) | `C++` | `Array`, `Hash Table`, `Two Pointers & Sorting` |
+| 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0015-3sum.cpp](./0015-3sum/0015-3sum.cpp) | `C++` | `Array`, `Sorting`, `Two Pointers` |
+| 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
+| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0349-intersection-of-two-arrays.cpp](./0349-intersection-of-two-arrays/0349-intersection-of-two-arrays.cpp) | `C++` | `Array`, `Binary Search`, `Hash Table`, `Sorting`, `Two Pointers` |
+| 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0442-find-all-duplicates-in-an-array.cpp](./0442-find-all-duplicates-in-an-array/0442-find-all-duplicates-in-an-array.cpp) | `C++` | `Array`, `Hash Table`, `Sorting` |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0724-find-pivot-index.cpp](./0724-find-pivot-index/0724-find-pivot-index.cpp) | `C++` | `Array`, `Prefix Sum` |
-| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0852-peak-index-in-a-mountain-array.cpp](./0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) | `C++` | `Array`, `Binary Search` |
+| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0852-peak-index-in-a-mountain-array.cpp](./0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) | `C++` | `Array`, `Binary Search`, `Ternary Search` |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [1207-unique-number-of-occurrences.cpp](./1207-unique-number-of-occurrences/1207-unique-number-of-occurrences.cpp) | `C++` | `Array`, `Hash Table` |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3622-check-divisibility-by-digit-sum-and-product.cpp](./3622-check-divisibility-by-digit-sum-and-product/3622-check-divisibility-by-digit-sum-and-product.cpp) | `C++` | `Math` |
 
@@ -68,18 +68,15 @@
 ### 🔹 Array
 - [0001 - Two Sum](./0001-two-sum)
 - [0015 - 3Sum](./0015-3sum)
+- [0034 - Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
 - [0724 - Find Pivot Index](./0724-find-pivot-index)
 - [0852 - Peak Index in a Mountain Array](./0852-peak-index-in-a-mountain-array)
 - [1207 - Unique Number of Occurrences](./1207-unique-number-of-occurrences)
 
-### 🔹 Two Pointers & Sorting
-- [0015 - 3Sum](./0015-3sum)
-- [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
-- [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
-
 ### 🔹 Binary Search
+- [0034 - Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0852 - Peak Index in a Mountain Array](./0852-peak-index-in-a-mountain-array)
 
@@ -89,11 +86,23 @@
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
 - [1207 - Unique Number of Occurrences](./1207-unique-number-of-occurrences)
 
+### 🔹 Math
+- [3622 - Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product)
+
 ### 🔹 Prefix Sum
 - [0724 - Find Pivot Index](./0724-find-pivot-index)
 
-### 🔹 Math
-- [3622 - Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product)
+### 🔹 Sorting
+- [0015 - 3Sum](./0015-3sum)
+- [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
+- [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
+
+### 🔹 Ternary Search
+- [0852 - Peak Index in a Mountain Array](./0852-peak-index-in-a-mountain-array)
+
+### 🔹 Two Pointers
+- [0015 - 3Sum](./0015-3sum)
+- [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 <!---LeetCode Topics End-->
 
 ---

@@ -34,10 +34,10 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet README.md; then
-            echo "Changes detected in README.md. Committing..."
-            git add README.md
-            git commit -m "🤖 Auto-update README problem index & statistics [skip ci]" || true
+          if ! git diff --quiet README.md scripts/topics_cache.json; then
+            echo "Changes detected. Committing..."
+            git add README.md scripts/topics_cache.json
+            git commit -m "🤖 Auto-update README problem index, topics & statistics [skip ci]" || true
             git pull --rebase origin main || true
             git push origin main || true
           else
