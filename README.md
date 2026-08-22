@@ -8,6 +8,7 @@
 | [0015-3sum](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/0015-3sum) |
 | [0349-intersection-of-two-arrays](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/0349-intersection-of-two-arrays) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0724-find-pivot-index](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/0724-find-pivot-index) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1207-unique-number-of-occurrences](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/1207-unique-number-of-occurrences) |
 ## Hash Table
@@ -41,4 +42,8 @@
 |  |
 | ------- |
 | [0852-peak-index-in-a-mountain-array](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/0852-peak-index-in-a-mountain-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [0724-find-pivot-index](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/0724-find-pivot-index) |
 <!---LeetCode Topics End-->
