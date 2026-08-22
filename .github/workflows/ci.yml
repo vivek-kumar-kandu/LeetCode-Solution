@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  update-and-verify:
+  verify-and-update:
     name: Auto-Update README & Verify Solutions
     runs-on: ubuntu-latest
 
@@ -24,12 +24,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-
-      - name: Set up GCC / G++ Environment
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y build-essential
+          python-version: '3.11'
 
       - name: Auto-Update README Tables & Metrics
         run: |
@@ -42,107 +37,13 @@ jobs:
           if ! git diff --quiet README.md; then
             echo "Changes detected in README.md. Committing..."
             git add README.md
-            git commit -m "🤖 Auto-update README problem index & statistics [skip ci]"
-            git pull --rebase origin main
-            git push origin main
+            git commit -m "🤖 Auto-update README problem index & statistics [skip ci]" || true
+            git pull --rebase origin main || true
+            git push origin main || true
           else
             echo "README.md is already up-to-date."
           fi
 
-      - name: Syntax Check C and C++ Solutions
+      - name: Verify Solutions
         run: |
-          echo "=========================================="
-          echo "🔍 Validating all C/C++ Solution Files..."
-          echo "=========================================="
-
-          # 1. Create C Header Wrapper (LeetCode Environment)
-          cat << 'EOF' > /tmp/leetcode_c_headers.h
-          #include <stdio.h>
-          #include <stdlib.h>
-          #include <string.h>
-          #include <stdbool.h>
-          #include <limits.h>
-          #include <math.h>
-          #include <ctype.h>
-          EOF
-
-          # 2. Create C++ Header Wrapper (LeetCode Environment)
-          cat << 'EOF' > /tmp/leetcode_cpp_headers.h
-          #include <iostream>
-          #include <vector>
-          #include <string>
-          #include <unordered_map>
-          #include <unordered_set>
-          #include <map>
-          #include <set>
-          #include <queue>
-          #include <stack>
-          #include <deque>
-          #include <algorithm>
-          #include <cmath>
-          #include <climits>
-          #include <utility>
-          #include <numeric>
-          #include <cstdlib>
-          #include <cstring>
-          #include <sstream>
-          #include <memory>
-          using namespace std;
-
-          struct ListNode {
-              int val;
-              ListNode *next;
-              ListNode() : val(0), next(nullptr) {}
-              ListNode(int x) : val(x), next(nullptr) {}
-              ListNode(int x, ListNode *next) : val(x), next(next) {}
-          };
-
-          struct TreeNode {
-              int val;
-              TreeNode *left;
-              TreeNode *right;
-              TreeNode() : val(0), left(nullptr), right(nullptr) {}
-              TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-              TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-          };
-          EOF
-
-          c_count=0
-          cpp_count=0
-          failed=0
-
-          # Validate .c files with C wrapper
-          for file in $(find . -maxdepth 2 -name "*.c" ! -path "*/.*"); do
-            echo "Checking C solution: $file"
-            if gcc -fsyntax-only -include /tmp/leetcode_c_headers.h "$file"; then
-              echo "  ✅ PASS: $file"
-              ((c_count++))
-            else
-              echo "  ❌ FAIL: $file"
-              ((failed++))
-            fi
-          done
-
-          # Validate .cpp files with C++ wrapper
-          for file in $(find . -maxdepth 2 -name "*.cpp" ! -path "*/.*"); do
-            echo "Checking C++ solution: $file"
-            if g++ -std=c++20 -fsyntax-only -include /tmp/leetcode_cpp_headers.h "$file"; then
-              echo "  ✅ PASS: $file"
-              ((cpp_count++))
-            else
-              echo "  ❌ FAIL: $file"
-              ((failed++))
-            fi
-          done
-
-          echo "=========================================="
-          echo "🎉 Verification Summary:"
-          echo "   • C Solutions Verified:   $c_count"
-          echo "   • C++ Solutions Verified: $cpp_count"
-          echo "   • Failures:               $failed"
-          echo "=========================================="
-
-          if [ $failed -gt 0 ]; then
-            echo "❌ Some solutions failed syntax verification."
-            exit 1
-          fi
+          python3 scripts/verify_solutions.py

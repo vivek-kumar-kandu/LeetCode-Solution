@@ -1,6 +1,13 @@
 import os
 import re
 import json
+import sys
+
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 def get_difficulty_badge(diff):
     diff_lower = (diff or '').strip().lower()
