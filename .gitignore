@@ -1,9 +1,9 @@
 # ==============================================================================
-# 🎯 Complete .gitignore for LeetCode C / C++ / Python Repository
+# 🎯 Comprehensive .gitignore for LeetCode C / C++ / Python Repository
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# 💻 C & C++ Compiled Binaries and Objects
+# 💻 C & C++ Compiled Binaries, Objects & Libraries
 # ------------------------------------------------------------------------------
 *.o
 *.obj
@@ -35,8 +35,13 @@
 *.elf
 *.hex
 a.out
+a.exe
 solution
+solution.exe
 test
+test.exe
+main
+main.exe
 
 # Debugging Artifacts & Symbol Stores
 *.dSYM/
@@ -44,6 +49,9 @@ test
 *.idb
 *.pdb
 *.ilk
+core
+*.core
+vgcore.*
 
 # Code Coverage & Profiling
 *.gcno
@@ -52,7 +60,7 @@ test
 gmon.out
 
 # ------------------------------------------------------------------------------
-# 🛠️ Build Systems (CMake / Make)
+# 🛠️ Build Systems & Tooling (CMake / Make / Ninja / Clangd)
 # ------------------------------------------------------------------------------
 build/
 bin/
@@ -63,9 +71,12 @@ CMakeCache.txt
 cmake_install.cmake
 CTestTestfile.cmake
 Makefile.in
+compile_commands.json
+.cache/
+.clangd/
 
 # ------------------------------------------------------------------------------
-# 🐍 Python (for helper scripts & auto-updater)
+# 🐍 Python (for helper scripts, virtual environments & tooling)
 # ------------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
@@ -73,12 +84,15 @@ __pycache__/
 *.pyo
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
 .coverage
 htmlcov/
 venv/
 .venv/
 env/
 ENV/
+*.egg-info/
+dist/
 
 # ------------------------------------------------------------------------------
 # 🧰 IDEs & Text Editors
@@ -106,7 +120,7 @@ ENV/
 *.sublime-project
 *.sublime-workspace
 
-# Vim / Emacs
+# Vim / Emacs / Nano
 *~
 *.swp
 *.swo
@@ -139,9 +153,14 @@ $RECYCLE.BIN/
 .fuse_hidden*
 
 # ------------------------------------------------------------------------------
-# 📝 Temporary & Log Files
+# 📝 Temporary, Environment & Scratch Files
 # ------------------------------------------------------------------------------
 *.log
 *.tmp
 *.bak
 *.orig
+*.swp
+.env
+.env.*
+!.env.example
+scratch/
