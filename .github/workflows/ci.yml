@@ -1,4 +1,4 @@
-name: LeetCode Solutions CI
+name: LeetCode Solutions CI & Auto-Update
 
 on:
   push:
@@ -7,19 +7,47 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  verify-solutions:
-    name: Build & Verify Solutions
+  update-and-verify:
+    name: Auto-Update README & Verify Solutions
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
       - name: Set up GCC / G++ Environment
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y build-essential
+
+      - name: Auto-Update README Tables & Metrics
+        run: |
+          python3 scripts/update_readme.py
+
+      - name: Commit & Push Updated README (if changed)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet README.md; then
+            echo "Changes detected in README.md. Committing..."
+            git add README.md
+            git commit -m "🤖 Auto-update README problem index & statistics [skip ci]"
+            git push origin main
+          else
+            echo "README.md is already up-to-date."
+          fi
 
       - name: Syntax Check C and C++ Solutions
         run: |
