@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **5** |
-| **🟡 Medium Solved** | **3** |
+| **🟡 Medium Solved** | **4** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **8** |
+| **📈 Total Solved** | **9** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -52,6 +52,7 @@
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0001-two-sum.c](./0001-two-sum/0001-two-sum.c) | `C` | `Array`, `Hash Table` |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0015-3sum.cpp](./0015-3sum/0015-3sum.cpp) | `C++` | `Array`, `Two Pointers & Sorting` |
+| 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array](./0034-find-first-and-last-position-of-element-in-sorted-array) | `C++` | `Algorithms` |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0349-intersection-of-two-arrays.cpp](./0349-intersection-of-two-arrays/0349-intersection-of-two-arrays.cpp) | `C++` | `Array`, `Binary Search`, `Hash Table`, `Two Pointers & Sorting` |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0442-find-all-duplicates-in-an-array.cpp](./0442-find-all-duplicates-in-an-array/0442-find-all-duplicates-in-an-array.cpp) | `C++` | `Array`, `Hash Table`, `Two Pointers & Sorting` |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0724-find-pivot-index.cpp](./0724-find-pivot-index/0724-find-pivot-index.cpp) | `C++` | `Array`, `Prefix Sum` |
