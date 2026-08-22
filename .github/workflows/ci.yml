@@ -1,0 +1,90 @@
+name: LeetCode Solutions CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  verify-solutions:
+    name: Build & Verify Solutions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up GCC / G++ Environment
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y build-essential
+
+      - name: Syntax Check C and C++ Solutions
+        run: |
+          echo "=========================================="
+          echo "🔍 Validating all C/C++ Solution Files..."
+          echo "=========================================="
+
+          # Create a standard header wrapper to replicate LeetCode compilation environment
+          cat << 'EOF' > /tmp/leetcode_headers.h
+          #include <iostream>
+          #include <vector>
+          #include <string>
+          #include <unordered_map>
+          #include <unordered_set>
+          #include <map>
+          #include <set>
+          #include <queue>
+          #include <stack>
+          #include <deque>
+          #include <algorithm>
+          #include <cmath>
+          #include <climits>
+          #include <utility>
+          #include <numeric>
+          #include <cstdlib>
+          #include <cstring>
+          using namespace std;
+          EOF
+
+          c_count=0
+          cpp_count=0
+          failed=0
+
+          # Validate .c files
+          for file in $(find . -maxdepth 2 -name "*.c" ! -path "*/.*"); do
+            echo "Checking C solution: $file"
+            if gcc -fsyntax-only "$file"; then
+              echo "  ✅ PASS: $file"
+              ((c_count++))
+            else
+              echo "  ❌ FAIL: $file"
+              ((failed++))
+            fi
+          done
+
+          # Validate .cpp files
+          for file in $(find . -maxdepth 2 -name "*.cpp" ! -path "*/.*"); do
+            echo "Checking C++ solution: $file"
+            if g++ -std=c++20 -fsyntax-only -include /tmp/leetcode_headers.h "$file"; then
+              echo "  ✅ PASS: $file"
+              ((cpp_count++))
+            else
+              echo "  ❌ FAIL: $file"
+              ((failed++))
+            fi
+          done
+
+          echo "=========================================="
+          echo "🎉 Verification Summary:"
+          echo "   • C Solutions Verified:   $c_count"
+          echo "   • C++ Solutions Verified: $cpp_count"
+          echo "   • Failures:               $failed"
+          echo "=========================================="
+
+          if [ $failed -gt 0 ]; then
+            echo "❌ Some solutions failed syntax verification."
+            exit 1
+          fi
