@@ -31,4 +31,8 @@
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/0349-intersection-of-two-arrays) |
+## Math
+|  |
+| ------- |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/vivek-kumar-kandu/LeetCode-Solution/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 <!---LeetCode Topics End-->
