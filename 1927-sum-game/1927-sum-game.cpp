@@ -27,8 +27,8 @@ public:
         if (total_Qn_mark % 2 == 1) {
             return true;
         }
-        int Left = 2 * left_know_sum + 9 * left_Qn_mark;
-        int Right = 2 * right_know_sum + 9 * right_Qn_mark;
+        int Left = left_know_sum + 4.5 * left_Qn_mark;
+        int Right = right_know_sum + 4.5 * right_Qn_mark;
         if (Left == Right) {
             return false;
         } else {
