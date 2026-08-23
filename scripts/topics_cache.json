@@ -85,5 +85,14 @@
       "Greedy",
       "Game Theory"
     ]
+  },
+  "sqrtx": {
+    "title": "Sqrt(x)",
+    "difficulty": "Easy",
+    "topics": [
+      "Math",
+      "Binary Search",
+      "Newton's Method"
+    ]
   }
 }
