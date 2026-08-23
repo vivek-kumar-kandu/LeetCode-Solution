@@ -75,5 +75,15 @@
       "Array",
       "Binary Search"
     ]
+  },
+  "sum-game": {
+    "title": "Sum Game",
+    "difficulty": "Medium",
+    "topics": [
+      "Math",
+      "String",
+      "Greedy",
+      "Game Theory"
+    ]
   }
 }

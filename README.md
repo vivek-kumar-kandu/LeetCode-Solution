@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **5** |
-| **🟡 Medium Solved** | **4** |
+| **🟡 Medium Solved** | **5** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **9** |
+| **📈 Total Solved** | **10** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -58,6 +58,7 @@
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0724-find-pivot-index.cpp](./0724-find-pivot-index/0724-find-pivot-index.cpp) | `C++` | `Array`, `Prefix Sum` |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0852-peak-index-in-a-mountain-array.cpp](./0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) | `C++` | `Array`, `Binary Search`, `Ternary Search` |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [1207-unique-number-of-occurrences.cpp](./1207-unique-number-of-occurrences/1207-unique-number-of-occurrences.cpp) | `C++` | `Array`, `Hash Table` |
+| 1927 | [Sum Game](https://leetcode.com/problems/sum-game) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [1927-sum-game](./1927-sum-game) | `C++` | `Game Theory`, `Greedy`, `Math`, `String` |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3622-check-divisibility-by-digit-sum-and-product.cpp](./3622-check-divisibility-by-digit-sum-and-product/3622-check-divisibility-by-digit-sum-and-product.cpp) | `C++` | `Math` |
 
 ---
@@ -80,6 +81,12 @@
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0852 - Peak Index in a Mountain Array](./0852-peak-index-in-a-mountain-array)
 
+### 🔹 Game Theory
+- [1927 - Sum Game](./1927-sum-game)
+
+### 🔹 Greedy
+- [1927 - Sum Game](./1927-sum-game)
+
 ### 🔹 Hash Table
 - [0001 - Two Sum](./0001-two-sum)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
@@ -87,6 +94,7 @@
 - [1207 - Unique Number of Occurrences](./1207-unique-number-of-occurrences)
 
 ### 🔹 Math
+- [1927 - Sum Game](./1927-sum-game)
 - [3622 - Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product)
 
 ### 🔹 Prefix Sum
@@ -96,6 +104,9 @@
 - [0015 - 3Sum](./0015-3sum)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
+
+### 🔹 String
+- [1927 - Sum Game](./1927-sum-game)
 
 ### 🔹 Ternary Search
 - [0852 - Peak Index in a Mountain Array](./0852-peak-index-in-a-mountain-array)
