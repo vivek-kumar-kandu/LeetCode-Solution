@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **6** |
-| **🟡 Medium Solved** | **5** |
+| **🟡 Medium Solved** | **6** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **11** |
+| **📈 Total Solved** | **12** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -51,9 +51,10 @@
 | # | Problem Title | Difficulty | Solution | Language | Topics |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0001-two-sum.c](./0001-two-sum/0001-two-sum.c) | `C` | `Array`, `Hash Table` |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0003-longest-substring-without-repeating-characters.cpp](./0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) | `C++` | `Hash Table`, `Sliding Window`, `String` |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0015-3sum.cpp](./0015-3sum/0015-3sum.cpp) | `C++` | `Array`, `Sorting`, `Two Pointers` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
-| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx](./0069-sqrtx) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
+| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0349-intersection-of-two-arrays.cpp](./0349-intersection-of-two-arrays/0349-intersection-of-two-arrays.cpp) | `C++` | `Array`, `Binary Search`, `Hash Table`, `Sorting`, `Two Pointers` |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0442-find-all-duplicates-in-an-array.cpp](./0442-find-all-duplicates-in-an-array/0442-find-all-duplicates-in-an-array.cpp) | `C++` | `Array`, `Hash Table`, `Sorting` |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0724-find-pivot-index.cpp](./0724-find-pivot-index/0724-find-pivot-index.cpp) | `C++` | `Array`, `Prefix Sum` |
@@ -91,6 +92,7 @@
 
 ### 🔹 Hash Table
 - [0001 - Two Sum](./0001-two-sum)
+- [0003 - Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
 - [1207 - Unique Number of Occurrences](./1207-unique-number-of-occurrences)
@@ -106,12 +108,16 @@
 ### 🔹 Prefix Sum
 - [0724 - Find Pivot Index](./0724-find-pivot-index)
 
+### 🔹 Sliding Window
+- [0003 - Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters)
+
 ### 🔹 Sorting
 - [0015 - 3Sum](./0015-3sum)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
 
 ### 🔹 String
+- [0003 - Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters)
 - [1927 - Sum Game](./1927-sum-game)
 
 ### 🔹 Ternary Search

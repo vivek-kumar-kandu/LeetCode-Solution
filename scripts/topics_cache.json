@@ -94,5 +94,14 @@
       "Binary Search",
       "Newton's Method"
     ]
+  },
+  "longest-substring-without-repeating-characters": {
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
   }
 }
