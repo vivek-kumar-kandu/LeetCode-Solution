@@ -103,5 +103,12 @@
       "String",
       "Sliding Window"
     ]
+  },
+  "reverse-integer": {
+    "title": "Reverse Integer",
+    "difficulty": "Medium",
+    "topics": [
+      "Math"
+    ]
   }
 }
