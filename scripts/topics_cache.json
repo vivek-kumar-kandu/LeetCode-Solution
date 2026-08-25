@@ -110,5 +110,12 @@
     "topics": [
       "Math"
     ]
+  },
+  "palindrome-number": {
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "topics": [
+      "Math"
+    ]
   }
 }
