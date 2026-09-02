@@ -38,10 +38,10 @@
 | Metric | Details |
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
-| **🟢 Easy Solved** | **7** |
+| **🟢 Easy Solved** | **8** |
 | **🟡 Medium Solved** | **7** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **14** |
+| **📈 Total Solved** | **15** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -53,7 +53,7 @@
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0001-two-sum.c](./0001-two-sum/0001-two-sum.c) | `C` | `Array`, `Hash Table` |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0003-longest-substring-without-repeating-characters.cpp](./0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.cpp) | `C++` | `Hash Table`, `Sliding Window`, `String` |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0007-reverse-integer.cpp](./0007-reverse-integer/0007-reverse-integer.cpp) | `C++` | `Math` |
-| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0009-palindrome-number](./0009-palindrome-number) | `C++` | `Math` |
+| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0009-palindrome-number.c](./0009-palindrome-number/0009-palindrome-number.c) | `C` | `Math` |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0015-3sum.cpp](./0015-3sum/0015-3sum.cpp) | `C++` | `Array`, `Sorting`, `Two Pointers` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
@@ -64,6 +64,7 @@
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [1207-unique-number-of-occurrences.cpp](./1207-unique-number-of-occurrences/1207-unique-number-of-occurrences.cpp) | `C++` | `Array`, `Hash Table` |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [1927-sum-game.cpp](./1927-sum-game/1927-sum-game.cpp) | `C++` | `Game Theory`, `Greedy`, `Math`, `String` |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3622-check-divisibility-by-digit-sum-and-product.cpp](./3622-check-divisibility-by-digit-sum-and-product/3622-check-divisibility-by-digit-sum-and-product.cpp) | `C++` | `Math` |
+| 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3875-construct-uniform-parity-array-i](./3875-construct-uniform-parity-array-i) | `C++` | `Array`, `Math` |
 
 ---
 
@@ -79,6 +80,7 @@
 - [0724 - Find Pivot Index](./0724-find-pivot-index)
 - [0852 - Peak Index in a Mountain Array](./0852-peak-index-in-a-mountain-array)
 - [1207 - Unique Number of Occurrences](./1207-unique-number-of-occurrences)
+- [3875 - Construct Uniform Parity Array I](./3875-construct-uniform-parity-array-i)
 
 ### 🔹 Binary Search
 - [0034 - Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array)
@@ -105,6 +107,7 @@
 - [0069 - Sqrt(x)](./0069-sqrtx)
 - [1927 - Sum Game](./1927-sum-game)
 - [3622 - Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product)
+- [3875 - Construct Uniform Parity Array I](./3875-construct-uniform-parity-array-i)
 
 ### 🔹 Newton's Method
 - [0069 - Sqrt(x)](./0069-sqrtx)

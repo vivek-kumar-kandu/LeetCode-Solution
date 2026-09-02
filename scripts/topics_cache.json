@@ -117,5 +117,13 @@
     "topics": [
       "Math"
     ]
+  },
+  "construct-uniform-parity-array-i": {
+    "title": "Construct Uniform Parity Array I",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Math"
+    ]
   }
 }
