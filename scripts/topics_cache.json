@@ -142,5 +142,17 @@
       "Math",
       "Two Pointers"
     ]
+  },
+  "find-the-duplicate-number": {
+    "title": "Find the Duplicate Number",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Bit Manipulation",
+      "Pigeonhole Principle",
+      "Floyd's Cycle Finding Algorithm"
+    ]
   }
 }
