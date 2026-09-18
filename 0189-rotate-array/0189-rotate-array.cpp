@@ -3,28 +3,55 @@ public:
     void rotate(vector<int>& nums, int k) {
         int n=nums.size();
         k=k%n;
-        int first_part=n-k;
-        int second_part=k;
         int left=0;
         int right=n-1;
         while(left<right){
-            swap(nums[left],nums[right]);
+            int temp = nums[left];
+            nums[left]=nums[right];
+            nums[right]=temp;
             left++;
             right--;
         }
         left=0;
-        right=k-1;
+        int mid=k-1;
+        while(left<mid){
+            int temp = nums[left];
+            nums[left]=nums[mid];
+            nums[mid]=temp;
+            left++;
+            mid--;
+        }
+        left=k;
+        right=n-1;
         while(left<right){
-            swap(nums[left],nums[right]);
+            int temp = nums[left];
+            nums[left]=nums[right];
+            nums[right]=temp;
             left++;
             right--;
         }
-        left=k,right=n-1;
-        while(left<right){
-            swap(nums[left],nums[right]);
-            left++;
-            right--;
-        }
+        // int first_part=n-k;
+        // int second_part=k;
+        // int left=0;
+        // int right=n-1;
+        // while(left<right){
+            // swap(nums[left],nums[right]);
+            // left++;
+            // right--;
+        // }
+        // left=0;
+        // right=k-1;
+        // while(left<right){
+            // swap(nums[left],nums[right]);
+            // left++;
+            // right--;
+        // }
+        // left=k,right=n-1;
+        // while(left<right){
+        //     swap(nums[left],nums[right]);
+        //     left++;
+        //     right--;
+        // }
         // vector<int>ans(n);
         // for(int i=0;i<n;i++){
         //     ans[(i+k)%n]=nums[i];
