@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **9** |
-| **🟡 Medium Solved** | **7** |
+| **🟡 Medium Solved** | **8** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **16** |
+| **📈 Total Solved** | **17** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -57,6 +57,7 @@
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0015-3sum.cpp](./0015-3sum/0015-3sum.cpp) | `C++` | `Array`, `Sorting`, `Two Pointers` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
+| 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0189-rotate-array](./0189-rotate-array) | `C++` | `Array`, `Math`, `Two Pointers` |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0344-reverse-string.cpp](./0344-reverse-string/0344-reverse-string.cpp) | `C++` | `String`, `Two Pointers` |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0349-intersection-of-two-arrays.cpp](./0349-intersection-of-two-arrays/0349-intersection-of-two-arrays.cpp) | `C++` | `Array`, `Binary Search`, `Hash Table`, `Sorting`, `Two Pointers` |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0442-find-all-duplicates-in-an-array.cpp](./0442-find-all-duplicates-in-an-array/0442-find-all-duplicates-in-an-array.cpp) | `C++` | `Array`, `Hash Table`, `Sorting` |
@@ -76,6 +77,7 @@
 - [0001 - Two Sum](./0001-two-sum)
 - [0015 - 3Sum](./0015-3sum)
 - [0034 - Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array)
+- [0189 - Rotate Array](./0189-rotate-array)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
 - [0724 - Find Pivot Index](./0724-find-pivot-index)
@@ -106,6 +108,7 @@
 - [0007 - Reverse Integer](./0007-reverse-integer)
 - [0009 - Palindrome Number](./0009-palindrome-number)
 - [0069 - Sqrt(x)](./0069-sqrtx)
+- [0189 - Rotate Array](./0189-rotate-array)
 - [1927 - Sum Game](./1927-sum-game)
 - [3622 - Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product)
 - [3875 - Construct Uniform Parity Array I](./3875-construct-uniform-parity-array-i)
@@ -134,6 +137,7 @@
 
 ### 🔹 Two Pointers
 - [0015 - 3Sum](./0015-3sum)
+- [0189 - Rotate Array](./0189-rotate-array)
 - [0344 - Reverse String](./0344-reverse-string)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 <!---LeetCode Topics End-->

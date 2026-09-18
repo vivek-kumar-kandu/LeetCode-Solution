@@ -133,5 +133,14 @@
       "Two Pointers",
       "String"
     ]
+  },
+  "rotate-array": {
+    "title": "Rotate Array",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Math",
+      "Two Pointers"
+    ]
   }
 }
