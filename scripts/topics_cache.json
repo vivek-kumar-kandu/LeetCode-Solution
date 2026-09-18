@@ -125,5 +125,13 @@
       "Array",
       "Math"
     ]
+  },
+  "reverse-string": {
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ]
   }
 }
