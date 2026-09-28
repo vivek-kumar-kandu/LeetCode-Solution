@@ -38,10 +38,10 @@
 | Metric | Details |
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
-| **🟢 Easy Solved** | **10** |
+| **🟢 Easy Solved** | **11** |
 | **🟡 Medium Solved** | **9** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **19** |
+| **📈 Total Solved** | **20** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -55,6 +55,7 @@
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0007-reverse-integer.cpp](./0007-reverse-integer/0007-reverse-integer.cpp) | `C++` | `Math` |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0009-palindrome-number.c](./0009-palindrome-number/0009-palindrome-number.c) | `C` | `Math` |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0015-3sum.cpp](./0015-3sum/0015-3sum.cpp) | `C++` | `Array`, `Sorting`, `Two Pointers` |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0020-valid-parentheses.cpp](./0020-valid-parentheses/0020-valid-parentheses.cpp) | `C++` | `Bracket Sequences`, `Stack`, `String` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0189-rotate-array.cpp](./0189-rotate-array/0189-rotate-array.cpp) | `C++` | `Array`, `Math`, `Two Pointers` |
@@ -99,6 +100,7 @@
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
 
 ### 🔹 Bracket Sequences
+- [0020 - Valid Parentheses](./0020-valid-parentheses)
 - [1614 - Maximum Nesting Depth of the Parentheses](./1614-maximum-nesting-depth-of-the-parentheses)
 
 ### 🔹 Floyd's Cycle Finding Algorithm
@@ -144,10 +146,12 @@
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
 
 ### 🔹 Stack
+- [0020 - Valid Parentheses](./0020-valid-parentheses)
 - [1614 - Maximum Nesting Depth of the Parentheses](./1614-maximum-nesting-depth-of-the-parentheses)
 
 ### 🔹 String
 - [0003 - Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters)
+- [0020 - Valid Parentheses](./0020-valid-parentheses)
 - [0344 - Reverse String](./0344-reverse-string)
 - [1614 - Maximum Nesting Depth of the Parentheses](./1614-maximum-nesting-depth-of-the-parentheses)
 - [1927 - Sum Game](./1927-sum-game)

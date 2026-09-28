@@ -163,5 +163,14 @@
       "Stack",
       "Bracket Sequences"
     ]
+  },
+  "valid-parentheses": {
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "topics": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ]
   }
 }
