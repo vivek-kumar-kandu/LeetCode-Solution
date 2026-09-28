@@ -154,5 +154,14 @@
       "Pigeonhole Principle",
       "Floyd's Cycle Finding Algorithm"
     ]
+  },
+  "maximum-nesting-depth-of-the-parentheses": {
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "difficulty": "Easy",
+    "topics": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ]
   }
 }
