@@ -197,5 +197,13 @@
     "topics": [
       "Array"
     ]
+  },
+  "move-zeroes": {
+    "title": "Move Zeroes",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
   }
 }

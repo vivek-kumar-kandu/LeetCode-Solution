@@ -38,10 +38,10 @@
 | Metric | Details |
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
-| **🟢 Easy Solved** | **14** |
+| **🟢 Easy Solved** | **15** |
 | **🟡 Medium Solved** | **9** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **23** |
+| **📈 Total Solved** | **24** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -59,6 +59,7 @@
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0189-rotate-array.cpp](./0189-rotate-array/0189-rotate-array.cpp) | `C++` | `Array`, `Math`, `Two Pointers` |
+| 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0283-move-zeroes](./0283-move-zeroes) | `C++` | `Array`, `Two Pointers` |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0287-find-the-duplicate-number.cpp](./0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) | `C++` | `Array`, `Binary Search`, `Bit Manipulation`, `Floyd's Cycle Finding Algorithm`, `Pigeonhole Principle`, `Two Pointers` |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0344-reverse-string.cpp](./0344-reverse-string/0344-reverse-string.cpp) | `C++` | `String`, `Two Pointers` |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0349-intersection-of-two-arrays.cpp](./0349-intersection-of-two-arrays/0349-intersection-of-two-arrays.cpp) | `C++` | `Array`, `Binary Search`, `Hash Table`, `Sorting`, `Two Pointers` |
@@ -84,6 +85,7 @@
 - [0015 - 3Sum](./0015-3sum)
 - [0034 - Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array)
 - [0189 - Rotate Array](./0189-rotate-array)
+- [0283 - Move Zeroes](./0283-move-zeroes)
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
@@ -176,6 +178,7 @@
 ### 🔹 Two Pointers
 - [0015 - 3Sum](./0015-3sum)
 - [0189 - Rotate Array](./0189-rotate-array)
+- [0283 - Move Zeroes](./0283-move-zeroes)
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
 - [0344 - Reverse String](./0344-reverse-string)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
