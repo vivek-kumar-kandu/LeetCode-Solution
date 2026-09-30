@@ -205,5 +205,13 @@
       "Array",
       "Two Pointers"
     ]
+  },
+  "remove-duplicates-from-sorted-array": {
+    "title": "Remove Duplicates from Sorted Array",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Two Pointers"
+    ]
   }
 }
