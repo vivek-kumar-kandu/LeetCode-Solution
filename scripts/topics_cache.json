@@ -172,5 +172,13 @@
       "Stack",
       "Bracket Sequences"
     ]
+  },
+  "smallest-index-with-digit-sum-equal-to-index": {
+    "title": "Smallest Index With Digit Sum Equal to Index",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Math"
+    ]
   }
 }
