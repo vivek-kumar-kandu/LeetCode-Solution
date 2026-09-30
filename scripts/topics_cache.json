@@ -180,5 +180,15 @@
       "Array",
       "Math"
     ]
+  },
+  "unique-3-digit-even-numbers": {
+    "title": "Unique 3-Digit Even Numbers",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Recursion",
+      "Enumeration"
+    ]
   }
 }
