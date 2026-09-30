@@ -190,5 +190,12 @@
       "Recursion",
       "Enumeration"
     ]
+  },
+  "max-consecutive-ones": {
+    "title": "Max Consecutive Ones",
+    "difficulty": "Easy",
+    "topics": [
+      "Array"
+    ]
   }
 }

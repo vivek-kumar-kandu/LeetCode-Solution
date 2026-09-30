@@ -38,10 +38,10 @@
 | Metric | Details |
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
-| **🟢 Easy Solved** | **13** |
+| **🟢 Easy Solved** | **14** |
 | **🟡 Medium Solved** | **9** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **22** |
+| **📈 Total Solved** | **23** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -63,12 +63,13 @@
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0344-reverse-string.cpp](./0344-reverse-string/0344-reverse-string.cpp) | `C++` | `String`, `Two Pointers` |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0349-intersection-of-two-arrays.cpp](./0349-intersection-of-two-arrays/0349-intersection-of-two-arrays.cpp) | `C++` | `Array`, `Binary Search`, `Hash Table`, `Sorting`, `Two Pointers` |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0442-find-all-duplicates-in-an-array.cpp](./0442-find-all-duplicates-in-an-array/0442-find-all-duplicates-in-an-array.cpp) | `C++` | `Array`, `Hash Table`, `Sorting` |
+| 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0485-max-consecutive-ones](./0485-max-consecutive-ones) | `C++` | `Array` |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0724-find-pivot-index.cpp](./0724-find-pivot-index/0724-find-pivot-index.cpp) | `C++` | `Array`, `Prefix Sum` |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0852-peak-index-in-a-mountain-array.cpp](./0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) | `C++` | `Array`, `Binary Search`, `Ternary Search` |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [1207-unique-number-of-occurrences.cpp](./1207-unique-number-of-occurrences/1207-unique-number-of-occurrences.cpp) | `C++` | `Array`, `Hash Table` |
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [1614-maximum-nesting-depth-of-the-parentheses.cpp](./1614-maximum-nesting-depth-of-the-parentheses/1614-maximum-nesting-depth-of-the-parentheses.cpp) | `C++` | `Bracket Sequences`, `Stack`, `String` |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [1927-sum-game.cpp](./1927-sum-game/1927-sum-game.cpp) | `C++` | `Game Theory`, `Greedy`, `Math`, `String` |
-| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3483-unique-3-digit-even-numbers](./3483-unique-3-digit-even-numbers) | `C++` | `Array`, `Enumeration`, `Hash Table`, `Recursion` |
+| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3483-unique-3-digit-even-numbers.cpp](./3483-unique-3-digit-even-numbers/3483-unique-3-digit-even-numbers.cpp) | `C++` | `Array`, `Enumeration`, `Hash Table`, `Recursion` |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3550-smallest-index-with-digit-sum-equal-to-index.cpp](./3550-smallest-index-with-digit-sum-equal-to-index/3550-smallest-index-with-digit-sum-equal-to-index.cpp) | `C++` | `Array`, `Math` |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3622-check-divisibility-by-digit-sum-and-product.cpp](./3622-check-divisibility-by-digit-sum-and-product/3622-check-divisibility-by-digit-sum-and-product.cpp) | `C++` | `Math` |
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3875-construct-uniform-parity-array-i.cpp](./3875-construct-uniform-parity-array-i/3875-construct-uniform-parity-array-i.cpp) | `C++` | `Array`, `Math` |
@@ -86,6 +87,7 @@
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
+- [0485 - Max Consecutive Ones](./0485-max-consecutive-ones)
 - [0724 - Find Pivot Index](./0724-find-pivot-index)
 - [0852 - Peak Index in a Mountain Array](./0852-peak-index-in-a-mountain-array)
 - [1207 - Unique Number of Occurrences](./1207-unique-number-of-occurrences)
