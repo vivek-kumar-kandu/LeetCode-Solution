@@ -213,5 +213,17 @@
       "Array",
       "Two Pointers"
     ]
+  },
+  "missing-number": {
+    "title": "Missing Number",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Sorting"
+    ]
   }
 }
