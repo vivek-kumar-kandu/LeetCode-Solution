@@ -225,5 +225,14 @@
       "Bit Manipulation",
       "Sorting"
     ]
+  },
+  "rearrange-array-elements-by-sign": {
+    "title": "Rearrange Array Elements by Sign",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Simulation"
+    ]
   }
 }
