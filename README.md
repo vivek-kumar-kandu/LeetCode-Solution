@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **17** |
-| **🟡 Medium Solved** | **10** |
+| **🟡 Medium Solved** | **11** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **27** |
+| **📈 Total Solved** | **28** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -58,6 +58,7 @@
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0020-valid-parentheses.cpp](./0020-valid-parentheses/0020-valid-parentheses.cpp) | `C++` | `Bracket Sequences`, `Stack`, `String` |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0026-remove-duplicates-from-sorted-array.cpp](./0026-remove-duplicates-from-sorted-array/0026-remove-duplicates-from-sorted-array.cpp) | `C++` | `Array`, `Two Pointers` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
+| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0054-spiral-matrix](./0054-spiral-matrix) | `C++` | `Array`, `Matrix`, `Simulation` |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0189-rotate-array.cpp](./0189-rotate-array/0189-rotate-array.cpp) | `C++` | `Array`, `Math`, `Two Pointers` |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0268-missing-number.cpp](./0268-missing-number/0268-missing-number.cpp) | `C++` | `Array`, `Binary Search`, `Bit Manipulation`, `Hash Table`, `Math`, `Sorting` |
@@ -88,6 +89,7 @@
 - [0015 - 3Sum](./0015-3sum)
 - [0026 - Remove Duplicates from Sorted Array](./0026-remove-duplicates-from-sorted-array)
 - [0034 - Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array)
+- [0054 - Spiral Matrix](./0054-spiral-matrix)
 - [0189 - Rotate Array](./0189-rotate-array)
 - [0268 - Missing Number](./0268-missing-number)
 - [0283 - Move Zeroes](./0283-move-zeroes)
@@ -151,6 +153,9 @@
 - [3622 - Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product)
 - [3875 - Construct Uniform Parity Array I](./3875-construct-uniform-parity-array-i)
 
+### 🔹 Matrix
+- [0054 - Spiral Matrix](./0054-spiral-matrix)
+
 ### 🔹 Newton's Method
 - [0069 - Sqrt(x)](./0069-sqrtx)
 
@@ -164,6 +169,7 @@
 - [3483 - Unique 3-Digit Even Numbers](./3483-unique-3-digit-even-numbers)
 
 ### 🔹 Simulation
+- [0054 - Spiral Matrix](./0054-spiral-matrix)
 - [2149 - Rearrange Array Elements by Sign](./2149-rearrange-array-elements-by-sign)
 
 ### 🔹 Sliding Window

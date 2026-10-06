@@ -234,5 +234,14 @@
       "Two Pointers",
       "Simulation"
     ]
+  },
+  "spiral-matrix": {
+    "title": "Spiral Matrix",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
   }
 }
