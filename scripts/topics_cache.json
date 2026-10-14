@@ -243,5 +243,13 @@
       "Matrix",
       "Simulation"
     ]
+  },
+  "maximize-sum-of-squares-of-digits": {
+    "title": "Maximize Sum of Squares of Digits",
+    "difficulty": "Medium",
+    "topics": [
+      "Math",
+      "Greedy"
+    ]
   }
 }
