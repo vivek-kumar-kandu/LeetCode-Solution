@@ -251,5 +251,14 @@
       "Math",
       "Greedy"
     ]
+  },
+  "set-matrix-zeroes": {
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
   }
 }
