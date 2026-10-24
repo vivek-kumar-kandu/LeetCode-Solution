@@ -260,5 +260,13 @@
       "Hash Table",
       "Matrix"
     ]
+  },
+  "remove-nth-node-from-end-of-list": {
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "Medium",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ]
   }
 }

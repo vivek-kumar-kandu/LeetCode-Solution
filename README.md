@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **17** |
-| **🟡 Medium Solved** | **13** |
+| **🟡 Medium Solved** | **14** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **30** |
+| **📈 Total Solved** | **31** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -55,6 +55,7 @@
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0007-reverse-integer.cpp](./0007-reverse-integer/0007-reverse-integer.cpp) | `C++` | `Math` |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0009-palindrome-number.c](./0009-palindrome-number/0009-palindrome-number.c) | `C` | `Math` |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0015-3sum.cpp](./0015-3sum/0015-3sum.cpp) | `C++` | `Array`, `Sorting`, `Two Pointers` |
+| 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0019-remove-nth-node-from-end-of-list](./0019-remove-nth-node-from-end-of-list) | `C++` | `Linked List`, `Two Pointers` |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0020-valid-parentheses.cpp](./0020-valid-parentheses/0020-valid-parentheses.cpp) | `C++` | `Bracket Sequences`, `Stack`, `String` |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0026-remove-duplicates-from-sorted-array.cpp](./0026-remove-duplicates-from-sorted-array/0026-remove-duplicates-from-sorted-array.cpp) | `C++` | `Array`, `Two Pointers` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
@@ -147,6 +148,9 @@
 - [1207 - Unique Number of Occurrences](./1207-unique-number-of-occurrences)
 - [3483 - Unique 3-Digit Even Numbers](./3483-unique-3-digit-even-numbers)
 
+### 🔹 Linked List
+- [0019 - Remove Nth Node From End of List](./0019-remove-nth-node-from-end-of-list)
+
 ### 🔹 Math
 - [0007 - Reverse Integer](./0007-reverse-integer)
 - [0009 - Palindrome Number](./0009-palindrome-number)
@@ -204,6 +208,7 @@
 
 ### 🔹 Two Pointers
 - [0015 - 3Sum](./0015-3sum)
+- [0019 - Remove Nth Node From End of List](./0019-remove-nth-node-from-end-of-list)
 - [0026 - Remove Duplicates from Sorted Array](./0026-remove-duplicates-from-sorted-array)
 - [0189 - Rotate Array](./0189-rotate-array)
 - [0283 - Move Zeroes](./0283-move-zeroes)
