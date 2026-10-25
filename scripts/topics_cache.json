@@ -273,5 +273,10 @@
     "title": "Binary Digit Score",
     "difficulty": "Easy",
     "topics": []
+  },
+  "count-frequency-staircase-subarrays-i": {
+    "title": "Count Frequency Staircase Subarrays I",
+    "difficulty": "Medium",
+    "topics": []
   }
 }
