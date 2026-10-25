@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **18** |
-| **🟡 Medium Solved** | **15** |
+| **🟡 Medium Solved** | **16** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **33** |
+| **📈 Total Solved** | **34** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -82,7 +82,8 @@
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [3723-maximize-sum-of-squares-of-digits.cpp](./3723-maximize-sum-of-squares-of-digits/3723-maximize-sum-of-squares-of-digits.cpp) | `C++` | `Greedy`, `Math` |
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3875-construct-uniform-parity-array-i.cpp](./3875-construct-uniform-parity-array-i/3875-construct-uniform-parity-array-i.cpp) | `C++` | `Array`, `Math` |
 | 4092 | [Binary Digit Score](https://leetcode.com/problems/binary-digit-score) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [4092-binary-digit-score.cpp](./4092-binary-digit-score/4092-binary-digit-score.cpp) | `C++` | `Algorithms` |
-| 4094 | [Count Frequency Staircase Subarrays I](https://leetcode.com/problems/count-frequency-staircase-subarrays-i) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [4094-count-frequency-staircase-subarrays-i](./4094-count-frequency-staircase-subarrays-i) | `C++` | `Algorithms` |
+| 4093 | [Maximize Sum After At Most K Digit Rearrangements](https://leetcode.com/problems/maximize-sum-after-at-most-k-digit-rearrangements) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [4093-maximize-sum-after-at-most-k-digit-rearrangements](./4093-maximize-sum-after-at-most-k-digit-rearrangements) | `C++` | `Algorithms` |
+| 4094 | [Count Frequency Staircase Subarrays I](https://leetcode.com/problems/count-frequency-staircase-subarrays-i) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [4094-count-frequency-staircase-subarrays-i.cpp](./4094-count-frequency-staircase-subarrays-i/4094-count-frequency-staircase-subarrays-i.cpp) | `C++` | `Algorithms` |
 
 ---
 
@@ -91,6 +92,7 @@
 <!---LeetCode Topics Start-->
 ### 🔹 Algorithms
 - [4092 - Binary Digit Score](./4092-binary-digit-score)
+- [4093 - Maximize Sum After At Most K Digit Rearrangements](./4093-maximize-sum-after-at-most-k-digit-rearrangements)
 - [4094 - Count Frequency Staircase Subarrays I](./4094-count-frequency-staircase-subarrays-i)
 
 ### 🔹 Array

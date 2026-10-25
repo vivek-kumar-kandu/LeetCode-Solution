@@ -278,5 +278,10 @@
     "title": "Count Frequency Staircase Subarrays I",
     "difficulty": "Medium",
     "topics": []
+  },
+  "maximize-sum-after-at-most-k-digit-rearrangements": {
+    "title": "Maximize Sum After At Most K Digit Rearrangements",
+    "difficulty": "Medium",
+    "topics": []
   }
 }
