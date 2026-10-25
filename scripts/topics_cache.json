@@ -268,5 +268,10 @@
       "Linked List",
       "Two Pointers"
     ]
+  },
+  "binary-digit-score": {
+    "title": "Binary Digit Score",
+    "difficulty": "Easy",
+    "topics": []
   }
 }
