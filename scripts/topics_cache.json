@@ -283,5 +283,10 @@
     "title": "Maximize Sum After At Most K Digit Rearrangements",
     "difficulty": "Medium",
     "topics": []
+  },
+  "create-grid-with-exactly-one-path": {
+    "title": "Create Grid With Exactly One Path",
+    "difficulty": "Easy",
+    "topics": []
   }
 }

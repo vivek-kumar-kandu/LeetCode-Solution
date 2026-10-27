@@ -38,10 +38,10 @@
 | Metric | Details |
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
-| **🟢 Easy Solved** | **18** |
+| **🟢 Easy Solved** | **19** |
 | **🟡 Medium Solved** | **16** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **34** |
+| **📈 Total Solved** | **35** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -81,6 +81,7 @@
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3622-check-divisibility-by-digit-sum-and-product.cpp](./3622-check-divisibility-by-digit-sum-and-product/3622-check-divisibility-by-digit-sum-and-product.cpp) | `C++` | `Math` |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [3723-maximize-sum-of-squares-of-digits.cpp](./3723-maximize-sum-of-squares-of-digits/3723-maximize-sum-of-squares-of-digits.cpp) | `C++` | `Greedy`, `Math` |
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3875-construct-uniform-parity-array-i.cpp](./3875-construct-uniform-parity-array-i/3875-construct-uniform-parity-array-i.cpp) | `C++` | `Array`, `Math` |
+| 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3963-create-grid-with-exactly-one-path](./3963-create-grid-with-exactly-one-path) | `C++` | `Algorithms` |
 | 4092 | [Binary Digit Score](https://leetcode.com/problems/binary-digit-score) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [4092-binary-digit-score.cpp](./4092-binary-digit-score/4092-binary-digit-score.cpp) | `C++` | `Algorithms` |
 | 4093 | [Maximize Sum After At Most K Digit Rearrangements](https://leetcode.com/problems/maximize-sum-after-at-most-k-digit-rearrangements) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [4093-maximize-sum-after-at-most-k-digit-rearrangements.cpp](./4093-maximize-sum-after-at-most-k-digit-rearrangements/4093-maximize-sum-after-at-most-k-digit-rearrangements.cpp) | `C++` | `Algorithms` |
 | 4094 | [Count Frequency Staircase Subarrays I](https://leetcode.com/problems/count-frequency-staircase-subarrays-i) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [4094-count-frequency-staircase-subarrays-i.cpp](./4094-count-frequency-staircase-subarrays-i/4094-count-frequency-staircase-subarrays-i.cpp) | `C++` | `Algorithms` |
@@ -91,6 +92,7 @@
 
 <!---LeetCode Topics Start-->
 ### 🔹 Algorithms
+- [3963 - Create Grid With Exactly One Path](./3963-create-grid-with-exactly-one-path)
 - [4092 - Binary Digit Score](./4092-binary-digit-score)
 - [4093 - Maximize Sum After At Most K Digit Rearrangements](./4093-maximize-sum-after-at-most-k-digit-rearrangements)
 - [4094 - Count Frequency Staircase Subarrays I](./4094-count-frequency-staircase-subarrays-i)
