@@ -288,5 +288,16 @@
     "title": "Create Grid With Exactly One Path",
     "difficulty": "Easy",
     "topics": []
+  },
+  "sort-colors": {
+    "title": "Sort Colors",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting",
+      "Quicksort",
+      "Bubble Sort"
+    ]
   }
 }

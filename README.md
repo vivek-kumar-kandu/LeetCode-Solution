@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **19** |
-| **🟡 Medium Solved** | **16** |
+| **🟡 Medium Solved** | **17** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **35** |
+| **📈 Total Solved** | **36** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -62,6 +62,7 @@
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0054-spiral-matrix.cpp](./0054-spiral-matrix/0054-spiral-matrix.cpp) | `C++` | `Array`, `Matrix`, `Simulation` |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0073-set-matrix-zeroes.cpp](./0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) | `C++` | `Array`, `Hash Table`, `Matrix` |
+| 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0075-sort-colors](./0075-sort-colors) | `C++` | `Array`, `Bubble Sort`, `Quicksort`, `Sorting`, `Two Pointers` |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0189-rotate-array.cpp](./0189-rotate-array/0189-rotate-array.cpp) | `C++` | `Array`, `Math`, `Two Pointers` |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0268-missing-number.cpp](./0268-missing-number/0268-missing-number.cpp) | `C++` | `Array`, `Binary Search`, `Bit Manipulation`, `Hash Table`, `Math`, `Sorting` |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0283-move-zeroes.cpp](./0283-move-zeroes/0283-move-zeroes.cpp) | `C++` | `Array`, `Two Pointers` |
@@ -104,6 +105,7 @@
 - [0034 - Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array)
 - [0054 - Spiral Matrix](./0054-spiral-matrix)
 - [0073 - Set Matrix Zeroes](./0073-set-matrix-zeroes)
+- [0075 - Sort Colors](./0075-sort-colors)
 - [0189 - Rotate Array](./0189-rotate-array)
 - [0268 - Missing Number](./0268-missing-number)
 - [0283 - Move Zeroes](./0283-move-zeroes)
@@ -134,6 +136,9 @@
 ### 🔹 Bracket Sequences
 - [0020 - Valid Parentheses](./0020-valid-parentheses)
 - [1614 - Maximum Nesting Depth of the Parentheses](./1614-maximum-nesting-depth-of-the-parentheses)
+
+### 🔹 Bubble Sort
+- [0075 - Sort Colors](./0075-sort-colors)
 
 ### 🔹 Enumeration
 - [3483 - Unique 3-Digit Even Numbers](./3483-unique-3-digit-even-numbers)
@@ -186,6 +191,9 @@
 ### 🔹 Prefix Sum
 - [0724 - Find Pivot Index](./0724-find-pivot-index)
 
+### 🔹 Quicksort
+- [0075 - Sort Colors](./0075-sort-colors)
+
 ### 🔹 Recursion
 - [3483 - Unique 3-Digit Even Numbers](./3483-unique-3-digit-even-numbers)
 
@@ -198,6 +206,7 @@
 
 ### 🔹 Sorting
 - [0015 - 3Sum](./0015-3sum)
+- [0075 - Sort Colors](./0075-sort-colors)
 - [0268 - Missing Number](./0268-missing-number)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
@@ -220,6 +229,7 @@
 - [0015 - 3Sum](./0015-3sum)
 - [0019 - Remove Nth Node From End of List](./0019-remove-nth-node-from-end-of-list)
 - [0026 - Remove Duplicates from Sorted Array](./0026-remove-duplicates-from-sorted-array)
+- [0075 - Sort Colors](./0075-sort-colors)
 - [0189 - Rotate Array](./0189-rotate-array)
 - [0283 - Move Zeroes](./0283-move-zeroes)
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
