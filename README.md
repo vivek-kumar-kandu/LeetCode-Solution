@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **19** |
-| **🟡 Medium Solved** | **17** |
+| **🟡 Medium Solved** | **18** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **36** |
+| **📈 Total Solved** | **37** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -59,10 +59,11 @@
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0020-valid-parentheses.cpp](./0020-valid-parentheses/0020-valid-parentheses.cpp) | `C++` | `Bracket Sequences`, `Stack`, `String` |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0026-remove-duplicates-from-sorted-array.cpp](./0026-remove-duplicates-from-sorted-array/0026-remove-duplicates-from-sorted-array.cpp) | `C++` | `Array`, `Two Pointers` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0053-maximum-subarray](./0053-maximum-subarray) | `C++` | `Array`, `Divide and Conquer`, `Dynamic Programming` |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0054-spiral-matrix.cpp](./0054-spiral-matrix/0054-spiral-matrix.cpp) | `C++` | `Array`, `Matrix`, `Simulation` |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0073-set-matrix-zeroes.cpp](./0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) | `C++` | `Array`, `Hash Table`, `Matrix` |
-| 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0075-sort-colors](./0075-sort-colors) | `C++` | `Array`, `Bubble Sort`, `Quicksort`, `Sorting`, `Two Pointers` |
+| 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0075-sort-colors.cpp](./0075-sort-colors/0075-sort-colors.cpp) | `C++` | `Array`, `Bubble Sort`, `Quicksort`, `Sorting`, `Two Pointers` |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0189-rotate-array.cpp](./0189-rotate-array/0189-rotate-array.cpp) | `C++` | `Array`, `Math`, `Two Pointers` |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0268-missing-number.cpp](./0268-missing-number/0268-missing-number.cpp) | `C++` | `Array`, `Binary Search`, `Bit Manipulation`, `Hash Table`, `Math`, `Sorting` |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0283-move-zeroes.cpp](./0283-move-zeroes/0283-move-zeroes.cpp) | `C++` | `Array`, `Two Pointers` |
@@ -103,6 +104,7 @@
 - [0015 - 3Sum](./0015-3sum)
 - [0026 - Remove Duplicates from Sorted Array](./0026-remove-duplicates-from-sorted-array)
 - [0034 - Find First and Last Position of Element in Sorted Array](./0034-find-first-and-last-position-of-element-in-sorted-array)
+- [0053 - Maximum Subarray](./0053-maximum-subarray)
 - [0054 - Spiral Matrix](./0054-spiral-matrix)
 - [0073 - Set Matrix Zeroes](./0073-set-matrix-zeroes)
 - [0075 - Sort Colors](./0075-sort-colors)
@@ -139,6 +141,12 @@
 
 ### 🔹 Bubble Sort
 - [0075 - Sort Colors](./0075-sort-colors)
+
+### 🔹 Divide and Conquer
+- [0053 - Maximum Subarray](./0053-maximum-subarray)
+
+### 🔹 Dynamic Programming
+- [0053 - Maximum Subarray](./0053-maximum-subarray)
 
 ### 🔹 Enumeration
 - [3483 - Unique 3-Digit Even Numbers](./3483-unique-3-digit-even-numbers)

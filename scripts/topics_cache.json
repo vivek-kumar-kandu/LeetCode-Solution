@@ -299,5 +299,14 @@
       "Quicksort",
       "Bubble Sort"
     ]
+  },
+  "maximum-subarray": {
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
+    ]
   }
 }
