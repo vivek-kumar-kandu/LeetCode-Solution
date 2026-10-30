@@ -308,5 +308,16 @@
       "Divide and Conquer",
       "Dynamic Programming"
     ]
+  },
+  "majority-element-ii": {
+    "title": "Majority Element II",
+    "difficulty": "Medium",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Counting",
+      "Boyer–Moore Majority Vote Algorithm"
+    ]
   }
 }

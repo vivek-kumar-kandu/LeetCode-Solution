@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **19** |
-| **🟡 Medium Solved** | **18** |
+| **🟡 Medium Solved** | **19** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **37** |
+| **📈 Total Solved** | **38** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -59,12 +59,13 @@
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0020-valid-parentheses.cpp](./0020-valid-parentheses/0020-valid-parentheses.cpp) | `C++` | `Bracket Sequences`, `Stack`, `String` |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0026-remove-duplicates-from-sorted-array.cpp](./0026-remove-duplicates-from-sorted-array/0026-remove-duplicates-from-sorted-array.cpp) | `C++` | `Array`, `Two Pointers` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0034-find-first-and-last-position-of-element-in-sorted-array.cpp](./0034-find-first-and-last-position-of-element-in-sorted-array/0034-find-first-and-last-position-of-element-in-sorted-array.cpp) | `C++` | `Array`, `Binary Search` |
-| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0053-maximum-subarray](./0053-maximum-subarray) | `C++` | `Array`, `Divide and Conquer`, `Dynamic Programming` |
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0053-maximum-subarray.c](./0053-maximum-subarray/0053-maximum-subarray.c) | `C` | `Array`, `Divide and Conquer`, `Dynamic Programming` |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0054-spiral-matrix.cpp](./0054-spiral-matrix/0054-spiral-matrix.cpp) | `C++` | `Array`, `Matrix`, `Simulation` |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0073-set-matrix-zeroes.cpp](./0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) | `C++` | `Array`, `Hash Table`, `Matrix` |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0075-sort-colors.cpp](./0075-sort-colors/0075-sort-colors.cpp) | `C++` | `Array`, `Bubble Sort`, `Quicksort`, `Sorting`, `Two Pointers` |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0189-rotate-array.cpp](./0189-rotate-array/0189-rotate-array.cpp) | `C++` | `Array`, `Math`, `Two Pointers` |
+| 0229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0229-majority-element-ii](./0229-majority-element-ii) | `C++` | `Array`, `Boyer–Moore Majority Vote Algorithm`, `Counting`, `Hash Table`, `Sorting` |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0268-missing-number.cpp](./0268-missing-number/0268-missing-number.cpp) | `C++` | `Array`, `Binary Search`, `Bit Manipulation`, `Hash Table`, `Math`, `Sorting` |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0283-move-zeroes.cpp](./0283-move-zeroes/0283-move-zeroes.cpp) | `C++` | `Array`, `Two Pointers` |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0287-find-the-duplicate-number.cpp](./0287-find-the-duplicate-number/0287-find-the-duplicate-number.cpp) | `C++` | `Array`, `Binary Search`, `Bit Manipulation`, `Floyd's Cycle Finding Algorithm`, `Pigeonhole Principle`, `Two Pointers` |
@@ -109,6 +110,7 @@
 - [0073 - Set Matrix Zeroes](./0073-set-matrix-zeroes)
 - [0075 - Sort Colors](./0075-sort-colors)
 - [0189 - Rotate Array](./0189-rotate-array)
+- [0229 - Majority Element II](./0229-majority-element-ii)
 - [0268 - Missing Number](./0268-missing-number)
 - [0283 - Move Zeroes](./0283-move-zeroes)
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
@@ -135,12 +137,18 @@
 - [0268 - Missing Number](./0268-missing-number)
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
 
+### 🔹 Boyer–Moore Majority Vote Algorithm
+- [0229 - Majority Element II](./0229-majority-element-ii)
+
 ### 🔹 Bracket Sequences
 - [0020 - Valid Parentheses](./0020-valid-parentheses)
 - [1614 - Maximum Nesting Depth of the Parentheses](./1614-maximum-nesting-depth-of-the-parentheses)
 
 ### 🔹 Bubble Sort
 - [0075 - Sort Colors](./0075-sort-colors)
+
+### 🔹 Counting
+- [0229 - Majority Element II](./0229-majority-element-ii)
 
 ### 🔹 Divide and Conquer
 - [0053 - Maximum Subarray](./0053-maximum-subarray)
@@ -165,6 +173,7 @@
 - [0001 - Two Sum](./0001-two-sum)
 - [0003 - Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters)
 - [0073 - Set Matrix Zeroes](./0073-set-matrix-zeroes)
+- [0229 - Majority Element II](./0229-majority-element-ii)
 - [0268 - Missing Number](./0268-missing-number)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
@@ -215,6 +224,7 @@
 ### 🔹 Sorting
 - [0015 - 3Sum](./0015-3sum)
 - [0075 - Sort Colors](./0075-sort-colors)
+- [0229 - Majority Element II](./0229-majority-element-ii)
 - [0268 - Missing Number](./0268-missing-number)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
