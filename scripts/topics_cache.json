@@ -319,5 +319,17 @@
       "Counting",
       "Boyer–Moore Majority Vote Algorithm"
     ]
+  },
+  "majority-element": {
+    "title": "Majority Element",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Counting",
+      "Boyer–Moore Majority Vote Algorithm"
+    ]
   }
 }
