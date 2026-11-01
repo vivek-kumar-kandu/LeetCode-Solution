@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **20** |
-| **🟡 Medium Solved** | **19** |
+| **🟡 Medium Solved** | **20** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **39** |
+| **📈 Total Solved** | **40** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -64,6 +64,7 @@
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0069-sqrtx.cpp](./0069-sqrtx/0069-sqrtx.cpp) | `C++` | `Binary Search`, `Math`, `Newton's Method` |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0073-set-matrix-zeroes.cpp](./0073-set-matrix-zeroes/0073-set-matrix-zeroes.cpp) | `C++` | `Array`, `Hash Table`, `Matrix` |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0075-sort-colors.cpp](./0075-sort-colors/0075-sort-colors.cpp) | `C++` | `Array`, `Bubble Sort`, `Quicksort`, `Sorting`, `Two Pointers` |
+| 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0142-linked-list-cycle-ii.cpp](./0142-linked-list-cycle-ii/0142-linked-list-cycle-ii.cpp) | `C++` | `Floyd's Cycle Finding Algorithm`, `Hash Table`, `Linked List`, `Two Pointers` |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0169-majority-element.cpp](./0169-majority-element/0169-majority-element.cpp) | `C++` | `Array`, `Boyer–Moore Majority Vote Algorithm`, `Counting`, `Divide and Conquer`, `Hash Table`, `Sorting` |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0189-rotate-array.cpp](./0189-rotate-array/0189-rotate-array.cpp) | `C++` | `Array`, `Math`, `Two Pointers` |
 | 0229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0229-majority-element-ii.cpp](./0229-majority-element-ii/0229-majority-element-ii.cpp) | `C++` | `Array`, `Boyer–Moore Majority Vote Algorithm`, `Counting`, `Hash Table`, `Sorting` |
@@ -165,6 +166,7 @@
 - [3483 - Unique 3-Digit Even Numbers](./3483-unique-3-digit-even-numbers)
 
 ### 🔹 Floyd's Cycle Finding Algorithm
+- [0142 - Linked List Cycle II](./0142-linked-list-cycle-ii)
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
 
 ### 🔹 Game Theory
@@ -178,6 +180,7 @@
 - [0001 - Two Sum](./0001-two-sum)
 - [0003 - Longest Substring Without Repeating Characters](./0003-longest-substring-without-repeating-characters)
 - [0073 - Set Matrix Zeroes](./0073-set-matrix-zeroes)
+- [0142 - Linked List Cycle II](./0142-linked-list-cycle-ii)
 - [0169 - Majority Element](./0169-majority-element)
 - [0229 - Majority Element II](./0229-majority-element-ii)
 - [0268 - Missing Number](./0268-missing-number)
@@ -188,6 +191,7 @@
 
 ### 🔹 Linked List
 - [0019 - Remove Nth Node From End of List](./0019-remove-nth-node-from-end-of-list)
+- [0142 - Linked List Cycle II](./0142-linked-list-cycle-ii)
 
 ### 🔹 Math
 - [0007 - Reverse Integer](./0007-reverse-integer)
@@ -255,6 +259,7 @@
 - [0019 - Remove Nth Node From End of List](./0019-remove-nth-node-from-end-of-list)
 - [0026 - Remove Duplicates from Sorted Array](./0026-remove-duplicates-from-sorted-array)
 - [0075 - Sort Colors](./0075-sort-colors)
+- [0142 - Linked List Cycle II](./0142-linked-list-cycle-ii)
 - [0189 - Rotate Array](./0189-rotate-array)
 - [0283 - Move Zeroes](./0283-move-zeroes)
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
