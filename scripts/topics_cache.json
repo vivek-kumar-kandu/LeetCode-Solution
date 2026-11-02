@@ -341,5 +341,15 @@
       "Two Pointers",
       "Floyd's Cycle Finding Algorithm"
     ]
+  },
+  "online-stock-span": {
+    "title": "Online Stock Span",
+    "difficulty": "Medium",
+    "topics": [
+      "Stack",
+      "Design",
+      "Monotonic Stack",
+      "Data Stream"
+    ]
   }
 }

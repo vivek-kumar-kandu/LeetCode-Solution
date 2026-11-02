@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **20** |
-| **🟡 Medium Solved** | **20** |
+| **🟡 Medium Solved** | **21** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **40** |
+| **📈 Total Solved** | **41** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -77,6 +77,7 @@
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0485-max-consecutive-ones.cpp](./0485-max-consecutive-ones/0485-max-consecutive-ones.cpp) | `C++` | `Array` |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0724-find-pivot-index.cpp](./0724-find-pivot-index/0724-find-pivot-index.cpp) | `C++` | `Array`, `Prefix Sum` |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0852-peak-index-in-a-mountain-array.cpp](./0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) | `C++` | `Array`, `Binary Search`, `Ternary Search` |
+| 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0901-online-stock-span.cpp](./0901-online-stock-span/0901-online-stock-span.cpp) | `C++` | `Data Stream`, `Design`, `Monotonic Stack`, `Stack` |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [1207-unique-number-of-occurrences.cpp](./1207-unique-number-of-occurrences/1207-unique-number-of-occurrences.cpp) | `C++` | `Array`, `Hash Table` |
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [1614-maximum-nesting-depth-of-the-parentheses.cpp](./1614-maximum-nesting-depth-of-the-parentheses/1614-maximum-nesting-depth-of-the-parentheses.cpp) | `C++` | `Bracket Sequences`, `Stack`, `String` |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [1927-sum-game.cpp](./1927-sum-game/1927-sum-game.cpp) | `C++` | `Game Theory`, `Greedy`, `Math`, `String` |
@@ -155,6 +156,12 @@
 - [0169 - Majority Element](./0169-majority-element)
 - [0229 - Majority Element II](./0229-majority-element-ii)
 
+### 🔹 Data Stream
+- [0901 - Online Stock Span](./0901-online-stock-span)
+
+### 🔹 Design
+- [0901 - Online Stock Span](./0901-online-stock-span)
+
 ### 🔹 Divide and Conquer
 - [0053 - Maximum Subarray](./0053-maximum-subarray)
 - [0169 - Majority Element](./0169-majority-element)
@@ -209,6 +216,9 @@
 - [0054 - Spiral Matrix](./0054-spiral-matrix)
 - [0073 - Set Matrix Zeroes](./0073-set-matrix-zeroes)
 
+### 🔹 Monotonic Stack
+- [0901 - Online Stock Span](./0901-online-stock-span)
+
 ### 🔹 Newton's Method
 - [0069 - Sqrt(x)](./0069-sqrtx)
 
@@ -242,6 +252,7 @@
 
 ### 🔹 Stack
 - [0020 - Valid Parentheses](./0020-valid-parentheses)
+- [0901 - Online Stock Span](./0901-online-stock-span)
 - [1614 - Maximum Nesting Depth of the Parentheses](./1614-maximum-nesting-depth-of-the-parentheses)
 
 ### 🔹 String
