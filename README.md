@@ -39,9 +39,9 @@
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
 | **🟢 Easy Solved** | **20** |
-| **🟡 Medium Solved** | **21** |
+| **🟡 Medium Solved** | **22** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **41** |
+| **📈 Total Solved** | **42** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -74,6 +74,7 @@
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0344-reverse-string.cpp](./0344-reverse-string/0344-reverse-string.cpp) | `C++` | `String`, `Two Pointers` |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0349-intersection-of-two-arrays.cpp](./0349-intersection-of-two-arrays/0349-intersection-of-two-arrays.cpp) | `C++` | `Array`, `Binary Search`, `Hash Table`, `Sorting`, `Two Pointers` |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0442-find-all-duplicates-in-an-array.cpp](./0442-find-all-duplicates-in-an-array/0442-find-all-duplicates-in-an-array.cpp) | `C++` | `Array`, `Hash Table`, `Sorting` |
+| 0453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0453-minimum-moves-to-equal-array-elements](./0453-minimum-moves-to-equal-array-elements) | `C++` | `Array`, `Math` |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0485-max-consecutive-ones.cpp](./0485-max-consecutive-ones/0485-max-consecutive-ones.cpp) | `C++` | `Array` |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [0724-find-pivot-index.cpp](./0724-find-pivot-index/0724-find-pivot-index.cpp) | `C++` | `Array`, `Prefix Sum` |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [0852-peak-index-in-a-mountain-array.cpp](./0852-peak-index-in-a-mountain-array/0852-peak-index-in-a-mountain-array.cpp) | `C++` | `Array`, `Binary Search`, `Ternary Search` |
@@ -120,6 +121,7 @@
 - [0287 - Find the Duplicate Number](./0287-find-the-duplicate-number)
 - [0349 - Intersection of Two Arrays](./0349-intersection-of-two-arrays)
 - [0442 - Find All Duplicates in an Array](./0442-find-all-duplicates-in-an-array)
+- [0453 - Minimum Moves to Equal Array Elements](./0453-minimum-moves-to-equal-array-elements)
 - [0485 - Max Consecutive Ones](./0485-max-consecutive-ones)
 - [0724 - Find Pivot Index](./0724-find-pivot-index)
 - [0852 - Peak Index in a Mountain Array](./0852-peak-index-in-a-mountain-array)
@@ -206,6 +208,7 @@
 - [0069 - Sqrt(x)](./0069-sqrtx)
 - [0189 - Rotate Array](./0189-rotate-array)
 - [0268 - Missing Number](./0268-missing-number)
+- [0453 - Minimum Moves to Equal Array Elements](./0453-minimum-moves-to-equal-array-elements)
 - [1927 - Sum Game](./1927-sum-game)
 - [3550 - Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index)
 - [3622 - Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product)
