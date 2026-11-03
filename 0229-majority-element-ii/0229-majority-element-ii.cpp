@@ -2,25 +2,21 @@ class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
         int n = nums.size();
-        int freq = floor(n / 3);
-        sort(nums.begin(), nums.end());
-        vector<int> ans;
-        int count = 1;
-        for (int i = 0; i < n - 1; i++) {
-
-            if (nums[i] == nums[i + 1]) {
-                count++;
-
-            } else {
-                if (count > freq) {
-                    ans.push_back(nums[i]);
-                }
-                count = 1;
-            }
+        map<int, int>freq;
+        for(int i=0; i<n; i++){
+            freq[nums[i]]++;
         }
-        if (count > freq) {
-            ans.push_back(nums[n - 1]);
+
+        vector<int>ans;
+        for(auto it: freq){
+            if(it.second >(n/3)) ans.push_back(it.first);
         }
         return ans;
+
+
+        // int ele1=0 , ele2=0 ,cnt1=0 ,cnt=0;
+        // for(int i=0;i<n;i++){
+            
+        // }
     }
 };
