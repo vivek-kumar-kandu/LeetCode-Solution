@@ -38,10 +38,10 @@
 | Metric | Details |
 | :--- | :--- |
 | **Primary Language** | `C++ (Modern C++20)` / `C` |
-| **🟢 Easy Solved** | **20** |
+| **🟢 Easy Solved** | **21** |
 | **🟡 Medium Solved** | **23** |
 | **🔴 Hard Solved** | **0** |
-| **📈 Total Solved** | **43** |
+| **📈 Total Solved** | **44** |
 | **🔄 Auto-sync** | Powered by [LeetHub v3](https://github.com/arunbhardwaj/LeetHub-3.0) & GitHub Actions |
 
 ---
@@ -88,6 +88,7 @@
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3550-smallest-index-with-digit-sum-equal-to-index.cpp](./3550-smallest-index-with-digit-sum-equal-to-index/3550-smallest-index-with-digit-sum-equal-to-index.cpp) | `C++` | `Array`, `Math` |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3622-check-divisibility-by-digit-sum-and-product.cpp](./3622-check-divisibility-by-digit-sum-and-product/3622-check-divisibility-by-digit-sum-and-product.cpp) | `C++` | `Math` |
 | 3723 | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits) | <img src="https://img.shields.io/badge/Medium-f59e0b?style=flat-square&logoColor=white" alt="Medium"/> | [3723-maximize-sum-of-squares-of-digits.cpp](./3723-maximize-sum-of-squares-of-digits/3723-maximize-sum-of-squares-of-digits.cpp) | `C++` | `Greedy`, `Math` |
+| 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3736-minimum-moves-to-equal-array-elements-iii](./3736-minimum-moves-to-equal-array-elements-iii) | `C++` | `Array`, `Math` |
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3875-construct-uniform-parity-array-i.cpp](./3875-construct-uniform-parity-array-i/3875-construct-uniform-parity-array-i.cpp) | `C++` | `Array`, `Math` |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [3963-create-grid-with-exactly-one-path.cpp](./3963-create-grid-with-exactly-one-path/3963-create-grid-with-exactly-one-path.cpp) | `C++` | `Algorithms` |
 | 4092 | [Binary Digit Score](https://leetcode.com/problems/binary-digit-score) | <img src="https://img.shields.io/badge/Easy-22c55e?style=flat-square&logoColor=white" alt="Easy"/> | [4092-binary-digit-score.cpp](./4092-binary-digit-score/4092-binary-digit-score.cpp) | `C++` | `Algorithms` |
@@ -131,6 +132,7 @@
 - [2149 - Rearrange Array Elements by Sign](./2149-rearrange-array-elements-by-sign)
 - [3483 - Unique 3-Digit Even Numbers](./3483-unique-3-digit-even-numbers)
 - [3550 - Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index)
+- [3736 - Minimum Moves to Equal Array Elements III](./3736-minimum-moves-to-equal-array-elements-iii)
 - [3875 - Construct Uniform Parity Array I](./3875-construct-uniform-parity-array-i)
 
 ### 🔹 Binary Search
@@ -216,6 +218,7 @@
 - [3550 - Smallest Index With Digit Sum Equal to Index](./3550-smallest-index-with-digit-sum-equal-to-index)
 - [3622 - Check Divisibility by Digit Sum and Product](./3622-check-divisibility-by-digit-sum-and-product)
 - [3723 - Maximize Sum of Squares of Digits](./3723-maximize-sum-of-squares-of-digits)
+- [3736 - Minimum Moves to Equal Array Elements III](./3736-minimum-moves-to-equal-array-elements-iii)
 - [3875 - Construct Uniform Parity Array I](./3875-construct-uniform-parity-array-i)
 
 ### 🔹 Matrix

@@ -368,5 +368,13 @@
       "Math",
       "Sorting"
     ]
+  },
+  "minimum-moves-to-equal-array-elements-iii": {
+    "title": "Minimum Moves to Equal Array Elements III",
+    "difficulty": "Easy",
+    "topics": [
+      "Array",
+      "Math"
+    ]
   }
 }
